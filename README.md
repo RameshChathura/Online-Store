@@ -1,2 +1,2 @@
-# web-test
-web development test repo
+# Online-Store
+This is for develop a online store site
