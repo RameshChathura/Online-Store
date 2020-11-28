@@ -6,6 +6,11 @@
 body{
 	background: radial-gradient(#fff,#ffd6d6);
 }
+
+
+
+
+/*Navigation Bar*/
 .navbar{
 	display: flex;
 	align-items: center;
@@ -36,6 +41,8 @@ p{
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
+/*Welcome and Intro*/
 .welcome{
 	text-align: center;
 }
@@ -47,6 +54,9 @@ p{
 	line-height: 60px;
 	color: #555;
 }
+
+
+/*Active buttons*/
 .btn{
 	display: inline-block;
 	background: #ff523b;
@@ -58,6 +68,9 @@ p{
 .btn:hover{
 	background: #563434;
 }
+
+
+/*Product List*/
 .row{
 	display: flex;
 	align-items: center;
@@ -85,6 +98,9 @@ p{
 	font-weight: normal;
 	transition: transform 0.5s;
 }
+
+
+/*Footer Section*/
 .footer{
 	text-align: center;
 	margin-top: 100px;
@@ -93,6 +109,8 @@ p{
 	color: #c1bbc9;
 }
 
+
+/*Products page-product list*/
 
 .column2{
 	flex-basis: 25%;
