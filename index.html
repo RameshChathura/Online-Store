@@ -2,69 +2,102 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>Online Store | Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>R-store|Home</title>
+</head>
 
 <body>
 
-	<!-- Navigation bar -->
-	<div class="container">
-		<div class="navbar">
-			<div class="logo">
-			<img src="images/logo.png" width="125px">
-		    </div>
-		    <nav>
-			    <ul>
-				     <li class="btn"><a href="index.html">Home</a></li>
-				     <li class="btn"><a href="products.html">Products</a></li>
-				     <li class="btn"><a href="cart.html">Cart</a></li>
-				     <li class="btn"><a href="">Shipping</a></li>
-				    <li class="btn"><a href="">About</a></li>
-			    </ul>
-		    </nav>
-	    </div>
-	</div>
 
 
 
-
-
-	   <!-- Welcome and Intro-->
-	<div class="welcome">
-		<h1>WELCOME!</h1>
-		<p>We provide the best quality products for your money</p>
-	</div>
-	    <!-- Our products-->
-	<div id="our_products">
-		<h1>Our products</h1>
-	</div>
-	<div class="categories">
-		<div class="row">
-			<div class="column">
-				<img src="images/t3.png">
-				<h3>T-Shirts</h3>
-			</div>
-			<div class="column">
-				<img src="images/j2.png">
-				<h3>Jeans</h3>
-			</div>
-			<div class="column">
-				<img src="images/shoes.png">
-				<h3>Shoes</h3>
-			</div>
-		</div>
-	</div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="link"><a href="index.html">Home</a></li>
+          <li class="link"><a href="products.html">Products</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="shipping.html"><span class="glyphicon glyphicon-plane"></span> Shipping</a></li>
+          <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 
-	    <!--footer section -->
-	<div class="footer">
-		<p>ousl-slasscom bootcamp 2020</p>
-	</div>
+  <!-- Welcome and introduction -->
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Welcome to R-Store</h1>
+      <p class="text-info">We provide best quality products for your need.</p>
+    </div>
+  </div>
 
-	
+
+  <!-- Product Category -->
+  <div class="container">
+
+
+
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">T-Shirts</div>
+          <div class="panel-body"><img src="images/t1.webp" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Best Quality T-shirts</div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">Trousers</div>
+          <div class="panel-body"><img src="images/j2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Best Quality Trousers </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">Shoes</div>
+          <div class="panel-body"><img src="images/s3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Best Quality Shoes</div>
+        </div>
+      </div>
+
+    </div>
+  </div><br>
+
+  <br><br>
+
+  <footer class="container-fluid text-center">
+    <p>2020.R-Store Copyright</p>
+  </footer>
+
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+
 </body>
+
 </html>
